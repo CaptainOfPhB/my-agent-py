@@ -62,3 +62,6 @@ milvus_demo.db/
 *.log
 tmp/
 temp/
+
+# Local tooling
+.tools/
