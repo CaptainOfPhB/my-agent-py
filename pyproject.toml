@@ -1,0 +1,23 @@
+[project]
+name = "my-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "CaptainOfPhB", email = "captainofphb@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "langchain>=0.3.30",
+    "langchain-openai>=0.3.35",
+    "python-dotenv>=1.2.1",
+    "pymilvus[milvus-lite]>=2.4.0",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+my-agent = "my_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"

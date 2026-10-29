@@ -1,0 +1,13 @@
+{
+  "python.terminal.useEnvFile": true,
+  "python.terminal.activateEnvironment": false,
+  "python-envs.defaultEnvManager": "ms-python.python:venv",
+  "cSpell.words": [
+    "captainofphb",
+    "DASHSCOPE",
+    "dotenv",
+    "milvus",
+    "pymilvus",
+    "qwen"
+  ]
+}
